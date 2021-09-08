@@ -1,0 +1,20 @@
+ifndef __JAVA_LANG_INTEGER__
+#define __JAVA_LANG_INTEGER__
+
+#include "xmlvm.h"
+
+// Preprocessor constants for interfaces:
+#define XMLVM_ITABLE_SIZE_java_lang_Integer 8
+// Implemented interfaces:
+#include "java_lang_Comparable.h"
+// Super Class:
+#include "java_lang_Number.h"
+
+// Circular references:
+#ifndef XMLVM_FORWARD_DECL_java_lang_Character
+#define XMLVM_FORWARD_DECL_java_lang_Character
+XMLVM_FORWARD_DECL(java_lang_Character)
+#endif
+#ifndef XMLVM_FORWARD_DECL_java_lang_Class
+#define XMLVM_FORWARD_DECL_java_lang_Class
+XMLVM_FORWARD_DECL(java_lang_Class)
